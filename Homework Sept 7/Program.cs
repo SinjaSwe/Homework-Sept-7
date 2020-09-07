@@ -12,17 +12,16 @@ namespace Homework_Sept_7
                           
             Console.ReadKey();
 
-            int num = Convert.ToInt32(Console.ReadLine());
+            int numberOne = Convert.ToInt32(Console.ReadLine());
+            
+            int response = (numberOne > 20)     ? "You are allowed to drink beer" 
+                                                : "You are not allowed to drink beer";
 
-            if(num > 20)
-            {
-                Console.WriteLine("You are old enough to drink wine!");
-            }
+            
 
-            else
-            {
-                Console.WriteLine("You are not old enought to drink wine!");
-                    }
+          
         }
     }
-}
+
+
+
