@@ -12,8 +12,8 @@ namespace Homework_Sept_7
 
             int numberOne = Convert.ToInt32(Console.ReadLine());
             
-            string response = (numberOne > 20)      ? "You are allowed to drink beer" 
-                                                    : "You are not allowed to drink beer! Welcome to the club!";  
+            string response = (numberOne > 20)      ? "You are allowed to drink beer. Welcome to the club!"
+                                                    : "You are not allowed to drink beer!";  
 
             Console.WriteLine(response);
             Console.ReadKey();
