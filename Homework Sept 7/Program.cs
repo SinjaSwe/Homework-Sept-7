@@ -8,6 +8,11 @@ namespace Homework_Sept_7
         {
             Console.WriteLine("Hello World!");
 
+            int numA;
+            numA = 47;
+
+            int numB = numA * 3
+
             Console.ReadKey();
         }
     }
