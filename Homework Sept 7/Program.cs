@@ -8,12 +8,21 @@ namespace Homework_Sept_7
         {
             Console.WriteLine("Hello World!");
 
-            int numA;
-            numA = 47;
-
-            int numB = numA * 3
-
+            Console.WriteLine("How old are you?");
+                          
             Console.ReadKey();
+
+            int num = Convert.ToInt32(Console.ReadLine());
+
+            if(num > 20)
+            {
+                Console.WriteLine("You are old enough to drink wine!");
+            }
+
+            else
+            {
+                Console.WriteLine("You are not old enought to drink wine!");
+                    }
         }
     }
 }
